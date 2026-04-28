@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "edge-request-handler",
+  "functions": {
+    "api/handler.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/handler" }
+  ],
+  "trailingSlash": false
+}
