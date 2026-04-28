@@ -1,0 +1,7 @@
+{
+  "name": "edge-request-handler",
+  "version": "1.0.0",
+  "description": "Edge function for handling HTTP requests",
+  "private": true,
+  "license": "MIT"
+}
